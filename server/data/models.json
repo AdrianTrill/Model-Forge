@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "GPT-3 Fine-Tune",
+    "status": "Training",
+    "type": "Transformer",
+    "datasetUsed": "Custom Dataset",
+    "trainingDate": "03/01/2025",
+    "accuracy": 78,
+    "price": 3000
+  },
+  {
+    "id": 2,
+    "name": "Llama-2 Chatbot",
+    "status": "Completed",
+    "type": "Transformer",
+    "datasetUsed": "Open Assistant",
+    "trainingDate": "03/09/2025",
+    "accuracy": 92,
+    "price": 2000
+  },
+  {
+    "id": 3,
+    "name": "V1 Image Classifier",
+    "status": "Completed",
+    "type": "CNN",
+    "datasetUsed": "CIFAR-100",
+    "trainingDate": "02/28/2025",
+    "accuracy": 85,
+    "price": 1000
+  },
+  {
+    "id": 4,
+    "name": "Alpha Model",
+    "status": "Training",
+    "type": "Transformer",
+    "datasetUsed": "Dataset Alpha",
+    "trainingDate": "04/01/2025",
+    "accuracy": 80,
+    "price": 5000
+  },
+  {
+    "id": 5,
+    "name": "Beta Model",
+    "status": "Training",
+    "type": "RNN",
+    "datasetUsed": "Dataset Beta",
+    "trainingDate": "04/05/2025",
+    "accuracy": 82,
+    "price": 2500
+  },
+  {
+    "id": 6,
+    "name": "Gamma Model",
+    "status": "Completed",
+    "type": "CNN",
+    "datasetUsed": "Dataset Gamma",
+    "trainingDate": "04/10/2025",
+    "accuracy": 88,
+    "price": 1500
+  },
+  {
+    "id": 7,
+    "name": "Delta Model",
+    "status": "Training",
+    "type": "Transformer",
+    "datasetUsed": "Dataset Delta",
+    "trainingDate": "04/15/2025",
+    "accuracy": 90,
+    "price": 2167
+  },
+  {
+    "id": 8,
+    "name": "Epsilon Model",
+    "status": "Completed",
+    "type": "RNN",
+    "datasetUsed": "Dataset Epsilon",
+    "trainingDate": "04/20/2025",
+    "accuracy": 87,
+    "price": 1800
+  },
+  {
+    "id": 9,
+    "name": "Zeta Model",
+    "status": "Training",
+    "type": "CNN",
+    "datasetUsed": "Dataset Zeta",
+    "trainingDate": "04/25/2025",
+    "accuracy": 83,
+    "price": 500
+  },
+  {
+    "id": 10,
+    "name": "Eta Model",
+    "status": "Completed",
+    "type": "Transformer",
+    "datasetUsed": "Dataset Eta",
+    "trainingDate": "04/30/2025",
+    "accuracy": 89,
+    "price": 2200
+  }
+]
