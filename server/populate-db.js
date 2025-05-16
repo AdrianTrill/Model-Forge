@@ -1,6 +1,7 @@
 const { faker } = require('@faker-js/faker');
 const { User, Post } = require('./models');
 const sequelize = require('./config/database');
+const bcrypt = require('bcrypt');
 
 async function populateDatabase() {
   try {
@@ -16,9 +17,12 @@ async function populateDatabase() {
     for (let i = 0; i < totalUsers; i += batchSize) {
       const users = [];
       for (let j = 0; j < batchSize && i + j < totalUsers; j++) {
+        const hashedPassword = await bcrypt.hash('password123', 10);
         users.push({
           username: `${faker.internet.userName()}_${Date.now()}_${i + j}`,
           email: `user${i + j}_${Date.now()}@example.com`,
+          password: hashedPassword,
+          role: 'user',
           createdAt: faker.date.past()
         });
       }

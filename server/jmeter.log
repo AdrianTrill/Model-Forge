@@ -1,139 +1,191 @@
-2025-05-15 20:34:17,574 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2025-05-15 20:34:17,605 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.6.3/libexec/bin/user.properties
-2025-05-15 20:34:17,605 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.6.3/libexec/bin/system.properties
-2025-05-15 20:34:17,616 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2025-05-15 20:34:17,616 INFO o.a.j.JMeter: Version 5.6.3
-2025-05-15 20:34:17,616 INFO o.a.j.JMeter: java.version=21.0.7
-2025-05-15 20:34:17,617 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2025-05-15 20:34:17,617 INFO o.a.j.JMeter: os.name=Mac OS X
-2025-05-15 20:34:17,617 INFO o.a.j.JMeter: os.arch=x86_64
-2025-05-15 20:34:17,617 INFO o.a.j.JMeter: os.version=13.7.5
-2025-05-15 20:34:17,617 INFO o.a.j.JMeter: file.encoding=UTF-8
-2025-05-15 20:34:17,617 INFO o.a.j.JMeter: java.awt.headless=true
-2025-05-15 20:34:17,617 INFO o.a.j.JMeter: Max memory     =1073741824
-2025-05-15 20:34:17,617 INFO o.a.j.JMeter: Available Processors =4
-2025-05-15 20:34:17,652 INFO o.a.j.JMeter: Default Locale=English (EN)
-2025-05-15 20:34:17,652 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2025-05-15 20:34:17,652 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.6.3/libexec
-2025-05-15 20:34:17,652 INFO o.a.j.JMeter: user.dir  =/Users/adriantrill/Desktop/model-forge/server
-2025-05-15 20:34:17,653 INFO o.a.j.JMeter: PWD       =/Users/adriantrill/Desktop/model-forge/server
-2025-05-15 20:34:17,654 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Adrians-MacBook-Pro.local FullName: localhost
-2025-05-15 20:34:17,668 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/Users/adriantrill/Desktop/model-forge/server/report'
-2025-05-15 20:34:17,671 INFO o.a.j.s.FileServer: Default base='/Users/adriantrill/Desktop/model-forge/server'
-2025-05-15 20:34:17,672 INFO o.a.j.s.FileServer: Set new base='/Users/adriantrill/Desktop/model-forge/server'
-2025-05-15 20:34:17,955 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2025-05-15 20:34:18,005 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2025-05-15 20:34:18,009 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2025-05-15 20:34:18,013 INFO o.a.j.s.SaveService: Loading file: stats-test-plan.jmx
-2025-05-15 20:34:18,075 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-05-15 20:34:18,075 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-05-15 20:34:18,075 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-05-15 20:34:18,076 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-05-15 20:34:18,076 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2025-05-15 20:34:18,076 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2025-05-15 20:34:18,103 INFO o.a.j.JMeter: Creating summariser <summary>
-2025-05-15 20:34:18,107 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
-2025-05-15 20:34:18,107 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results.jtl
-2025-05-15 20:34:18,107 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /usr/local/Cellar/jmeter/5.6.3/libexec/bin/reportgenerator.properties
-2025-05-15 20:34:18,108 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
-2025-05-15 20:34:18,114 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
-2025-05-15 20:34:18,118 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
-2025-05-15 20:34:18,118 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
-2025-05-15 20:34:18,119 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
-2025-05-15 20:34:18,119 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
-2025-05-15 20:34:18,119 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
-2025-05-15 20:34:18,119 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
-2025-05-15 20:34:18,119 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
-2025-05-15 20:34:18,120 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
-2025-05-15 20:34:18,124 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
-2025-05-15 20:34:18,124 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
-2025-05-15 20:34:18,124 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
-2025-05-15 20:34:18,124 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
-2025-05-15 20:34:18,124 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
-2025-05-15 20:34:18,124 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
-2025-05-15 20:34:18,124 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2025-05-15 20:34:18,125 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2025-05-15 20:34:18,125 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
-2025-05-15 20:34:18,128 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2025-05-15 20:34:18,129 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
-2025-05-15 20:34:18,129 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
-2025-05-15 20:34:18,129 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
-2025-05-15 20:34:18,129 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
-2025-05-15 20:34:18,130 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
-2025-05-15 20:34:18,130 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
-2025-05-15 20:34:18,153 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2025-05-15 20:34:18,154 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-05-15 20:34:18,154 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-05-15 20:34:18,162 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2025-05-15 20:34:18,162 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2025-05-15 20:34:18,266 INFO o.a.j.r.ClassFinder: Will scan jar /usr/local/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-05-15 20:34:18,389 INFO o.a.j.JMeter: Running test (1747330458389)
-2025-05-15 20:34:18,410 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Statistics Endpoints Thread Group
-2025-05-15 20:34:18,410 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Statistics Endpoints Thread Group.
-2025-05-15 20:34:18,410 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2025-05-15 20:34:18,410 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=10 delayedStart=false
-2025-05-15 20:34:18,416 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-1
-2025-05-15 20:34:18,439 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Adrians-MacBook-Pro.local
-2025-05-15 20:34:18,447 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2025-05-15 20:34:18,449 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2025-05-15 20:34:18,449 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
-2025-05-15 20:34:18,449 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2025-05-15 20:34:18,449 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2025-05-15 20:34:18,453 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2025-05-15 20:34:18,453 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2025-05-15 20:34:18,614 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-2
-2025-05-15 20:34:18,813 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-3
-2025-05-15 20:34:19,013 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-4
-2025-05-15 20:34:19,212 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-5
-2025-05-15 20:34:19,416 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-6
-2025-05-15 20:34:19,612 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-7
-2025-05-15 20:34:19,814 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-8
-2025-05-15 20:34:20,013 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-9
-2025-05-15 20:34:20,214 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-10
-2025-05-15 20:34:20,415 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-11
-2025-05-15 20:34:20,614 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-12
-2025-05-15 20:34:20,815 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-13
-2025-05-15 20:34:21,014 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-14
-2025-05-15 20:34:21,212 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-15
-2025-05-15 20:34:21,414 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-16
-2025-05-15 20:34:21,613 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-17
-2025-05-15 20:34:21,814 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-18
-2025-05-15 20:34:22,017 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-19
-2025-05-15 20:34:22,213 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-20
-2025-05-15 20:34:22,413 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-21
-2025-05-15 20:34:22,613 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-22
-2025-05-15 20:34:22,815 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-23
-2025-05-15 20:34:23,012 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-24
-2025-05-15 20:34:23,212 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-25
-2025-05-15 20:34:23,413 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-26
-2025-05-15 20:34:23,612 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-27
-2025-05-15 20:34:23,816 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-28
-2025-05-15 20:34:24,012 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-29
-2025-05-15 20:34:24,214 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-30
-2025-05-15 20:34:24,415 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-31
-2025-05-15 20:34:24,613 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-32
-2025-05-15 20:34:24,816 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-33
-2025-05-15 20:34:25,013 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-34
-2025-05-15 20:34:25,216 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-35
-2025-05-15 20:34:25,413 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-36
-2025-05-15 20:34:25,614 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-37
-2025-05-15 20:34:25,815 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-38
-2025-05-15 20:34:26,012 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-39
-2025-05-15 20:34:26,215 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-40
-2025-05-15 20:34:26,412 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-41
-2025-05-15 20:34:26,616 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-42
-2025-05-15 20:34:26,813 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-43
-2025-05-15 20:34:27,017 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-44
-2025-05-15 20:34:27,213 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-45
-2025-05-15 20:34:27,418 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-46
-2025-05-15 20:34:27,613 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-47
-2025-05-15 20:34:27,852 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-48
-2025-05-15 20:34:28,013 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-49
-2025-05-15 20:34:28,218 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-50
-2025-05-15 20:34:33,915 INFO o.a.j.r.Summariser: summary +      1 in 00:00:16 =    0.1/s Avg: 15375 Min: 15375 Max: 15375 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
-2025-05-15 20:35:00,574 INFO o.a.j.r.Summariser: summary +     25 in 00:00:27 =    0.9/s Avg: 26961 Min: 16373 Max: 37158 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
-2025-05-15 20:35:00,575 INFO o.a.j.r.Summariser: summary =     26 in 00:00:42 =    0.6/s Avg: 26515 Min: 15375 Max: 37158 Err:     0 (0.00%)
-2025-05-15 20:35:31,077 INFO o.a.j.r.Summariser: summary +     28 in 00:00:31 =    0.9/s Avg: 48789 Min: 37882 Max: 58883 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
-2025-05-15 20:35:31,078 INFO o.a.j.r.Summariser: summary =     54 in 00:01:13 =    0.7/s Avg: 38065 Min: 15375 Max: 58883 Err:     0 (0.00%)
-2025-05-15 20:35:59,151 INFO o.a.j.r.ResultCollector: Shutdown hook started
-2025-05-15 20:35:59,152 INFO o.a.j.r.ResultCollector: Shutdown hook ended
+2025-05-16 13:02:38,686 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-05-16 13:02:38,735 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/5.6.3/libexec/bin/user.properties
+2025-05-16 13:02:38,735 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/5.6.3/libexec/bin/system.properties
+2025-05-16 13:02:38,742 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-05-16 13:02:38,742 INFO o.a.j.JMeter: Version 5.6.3
+2025-05-16 13:02:38,742 INFO o.a.j.JMeter: java.version=21.0.7
+2025-05-16 13:02:38,742 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2025-05-16 13:02:38,742 INFO o.a.j.JMeter: os.name=Mac OS X
+2025-05-16 13:02:38,743 INFO o.a.j.JMeter: os.arch=x86_64
+2025-05-16 13:02:38,743 INFO o.a.j.JMeter: os.version=13.7.5
+2025-05-16 13:02:38,743 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-05-16 13:02:38,743 INFO o.a.j.JMeter: java.awt.headless=true
+2025-05-16 13:02:38,743 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-05-16 13:02:38,743 INFO o.a.j.JMeter: Available Processors =4
+2025-05-16 13:02:38,755 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-05-16 13:02:38,755 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-05-16 13:02:38,755 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/5.6.3/libexec
+2025-05-16 13:02:38,756 INFO o.a.j.JMeter: user.dir  =/Users/adriantrill/Desktop/github/ModelForge/server
+2025-05-16 13:02:38,756 INFO o.a.j.JMeter: PWD       =/Users/adriantrill/Desktop/github/ModelForge/server
+2025-05-16 13:02:38,757 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: Adrians-MacBook-Pro.local FullName: localhost
+2025-05-16 13:02:38,784 INFO o.a.j.s.FileServer: Default base='/Users/adriantrill/Desktop/github/ModelForge/server'
+2025-05-16 13:02:38,786 INFO o.a.j.s.FileServer: Set new base='/Users/adriantrill/Desktop/github/ModelForge/server'
+2025-05-16 13:02:39,052 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-05-16 13:02:39,091 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-05-16 13:02:39,095 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-05-16 13:02:39,099 INFO o.a.j.s.SaveService: Loading file: stats-test-plan.jmx
+2025-05-16 13:02:39,187 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-16 13:02:39,187 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-16 13:02:39,187 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-16 13:02:39,187 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-16 13:02:39,187 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-05-16 13:02:39,187 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-05-16 13:02:39,224 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-05-16 13:02:39,241 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-05-16 13:02:39,241 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-05-16 13:02:39,242 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-05-16 13:02:39,253 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-05-16 13:02:39,253 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-05-16 13:02:39,470 INFO o.a.j.r.ClassFinder: Will scan jar /usr/local/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-05-16 13:02:39,754 INFO o.a.j.JMeter: Running test (1747389759754)
+2025-05-16 13:02:39,780 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Statistics Endpoints Thread Group
+2025-05-16 13:02:39,781 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Statistics Endpoints Thread Group.
+2025-05-16 13:02:39,781 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-05-16 13:02:39,781 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=20 delayedStart=false
+2025-05-16 13:02:39,789 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-1
+2025-05-16 13:02:39,823 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Adrians-MacBook-Pro.local
+2025-05-16 13:02:39,834 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-05-16 13:02:39,837 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-05-16 13:02:39,837 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-05-16 13:02:39,837 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-05-16 13:02:39,837 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-05-16 13:02:39,925 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-05-16 13:02:39,925 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-05-16 13:02:39,986 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-2
+2025-05-16 13:02:40,183 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-3
+2025-05-16 13:02:40,306 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2025-05-16 13:02:40,316 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2025-05-16 13:02:40,317 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2025-05-16 13:02:40,385 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-4
+2025-05-16 13:02:40,448 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2025-05-16 13:02:40,451 INFO o.a.j.u.SSLManager: KeyStore created OK
+2025-05-16 13:02:40,452 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2025-05-16 13:02:40,582 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-5
+2025-05-16 13:02:40,787 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-6
+2025-05-16 13:02:40,986 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-7
+2025-05-16 13:02:41,186 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-8
+2025-05-16 13:02:41,387 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-9
+2025-05-16 13:02:41,586 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-10
+2025-05-16 13:02:41,783 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-11
+2025-05-16 13:02:41,985 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-12
+2025-05-16 13:02:42,182 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-13
+2025-05-16 13:02:42,382 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-14
+2025-05-16 13:02:42,583 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-15
+2025-05-16 13:02:42,782 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-16
+2025-05-16 13:02:42,989 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-17
+2025-05-16 13:02:43,182 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-18
+2025-05-16 13:02:43,386 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-19
+2025-05-16 13:02:43,582 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-20
+2025-05-16 13:02:43,783 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-21
+2025-05-16 13:02:43,986 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-22
+2025-05-16 13:02:44,183 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-23
+2025-05-16 13:02:44,383 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-24
+2025-05-16 13:02:44,583 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-25
+2025-05-16 13:02:44,785 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-26
+2025-05-16 13:02:44,987 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-27
+2025-05-16 13:02:45,182 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-28
+2025-05-16 13:02:45,383 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-29
+2025-05-16 13:02:45,583 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-30
+2025-05-16 13:02:45,782 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-31
+2025-05-16 13:02:45,982 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-32
+2025-05-16 13:02:46,185 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-33
+2025-05-16 13:02:46,385 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-34
+2025-05-16 13:02:46,583 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-35
+2025-05-16 13:02:46,782 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-36
+2025-05-16 13:02:46,982 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-37
+2025-05-16 13:02:47,186 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-38
+2025-05-16 13:02:47,382 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-39
+2025-05-16 13:02:47,586 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-40
+2025-05-16 13:02:47,787 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-41
+2025-05-16 13:02:47,986 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-42
+2025-05-16 13:02:48,182 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-43
+2025-05-16 13:02:48,387 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-44
+2025-05-16 13:02:48,582 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-45
+2025-05-16 13:02:48,783 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-46
+2025-05-16 13:02:48,983 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-47
+2025-05-16 13:02:49,182 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-48
+2025-05-16 13:02:49,382 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-49
+2025-05-16 13:02:49,586 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-50
+2025-05-16 13:02:49,783 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-51
+2025-05-16 13:02:49,984 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-52
+2025-05-16 13:02:50,184 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-53
+2025-05-16 13:02:50,393 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-54
+2025-05-16 13:02:50,584 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-55
+2025-05-16 13:02:50,783 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-56
+2025-05-16 13:02:50,982 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-57
+2025-05-16 13:02:51,186 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-58
+2025-05-16 13:02:51,382 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-59
+2025-05-16 13:02:51,581 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-60
+2025-05-16 13:02:51,788 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-61
+2025-05-16 13:02:51,992 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-62
+2025-05-16 13:02:52,186 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-63
+2025-05-16 13:02:52,387 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-64
+2025-05-16 13:02:52,583 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-65
+2025-05-16 13:02:52,783 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-66
+2025-05-16 13:02:52,983 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-67
+2025-05-16 13:02:53,187 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-68
+2025-05-16 13:02:53,384 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-69
+2025-05-16 13:02:53,587 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-70
+2025-05-16 13:02:53,782 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-71
+2025-05-16 13:02:53,983 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-72
+2025-05-16 13:02:54,183 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-73
+2025-05-16 13:02:54,382 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-74
+2025-05-16 13:02:54,582 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-75
+2025-05-16 13:02:54,782 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-76
+2025-05-16 13:02:54,981 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-77
+2025-05-16 13:02:55,187 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-78
+2025-05-16 13:02:55,383 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-79
+2025-05-16 13:02:55,582 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-80
+2025-05-16 13:02:55,783 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-81
+2025-05-16 13:02:55,983 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-82
+2025-05-16 13:02:56,187 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-83
+2025-05-16 13:02:56,392 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-84
+2025-05-16 13:02:56,582 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-85
+2025-05-16 13:02:56,783 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-86
+2025-05-16 13:02:56,981 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-87
+2025-05-16 13:02:57,182 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-88
+2025-05-16 13:02:57,385 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-89
+2025-05-16 13:02:57,582 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-90
+2025-05-16 13:02:57,782 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-91
+2025-05-16 13:02:57,982 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-92
+2025-05-16 13:02:58,183 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-93
+2025-05-16 13:02:58,386 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-94
+2025-05-16 13:02:58,587 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-95
+2025-05-16 13:02:58,783 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-96
+2025-05-16 13:02:58,982 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-97
+2025-05-16 13:02:59,186 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-98
+2025-05-16 13:02:59,382 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-99
+2025-05-16 13:02:59,582 INFO o.a.j.t.JMeterThread: Thread started: Statistics Endpoints Thread Group 1-100
+2025-05-16 13:03:00,015 INFO o.a.j.r.Summariser: summary +   1569 in 00:00:20 =   77.4/s Avg:   613 Min:    69 Max:  2101 Err:  1569 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:03:30,016 INFO o.a.j.r.Summariser: summary +   3141 in 00:00:30 =  104.7/s Avg:   954 Min:   271 Max:  2407 Err:  3141 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:03:30,018 INFO o.a.j.r.Summariser: summary =   4710 in 00:00:50 =   93.7/s Avg:   841 Min:    69 Max:  2407 Err:  4710 (100.00%)
+2025-05-16 13:04:00,051 INFO o.a.j.r.Summariser: summary +   3282 in 00:00:30 =  109.3/s Avg:   925 Min:   234 Max:  1987 Err:  3282 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:04:00,053 INFO o.a.j.r.Summariser: summary =   7992 in 00:01:20 =   99.5/s Avg:   875 Min:    69 Max:  2407 Err:  7992 (100.00%)
+2025-05-16 13:04:30,015 INFO o.a.j.r.Summariser: summary +   3294 in 00:00:30 =  109.9/s Avg:   905 Min:   257 Max:  2162 Err:  3294 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:04:30,015 INFO o.a.j.r.Summariser: summary =  11286 in 00:01:50 =  102.4/s Avg:   884 Min:    69 Max:  2407 Err: 11286 (100.00%)
+2025-05-16 13:05:00,015 INFO o.a.j.r.Summariser: summary +   3236 in 00:00:30 =  107.9/s Avg:   928 Min:   244 Max:  2072 Err:  3236 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:05:00,016 INFO o.a.j.r.Summariser: summary =  14522 in 00:02:20 =  103.5/s Avg:   894 Min:    69 Max:  2407 Err: 14522 (100.00%)
+2025-05-16 13:05:30,070 INFO o.a.j.r.Summariser: summary +   3408 in 00:00:30 =  113.4/s Avg:   886 Min:     2 Max:  6139 Err:  3408 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:05:30,071 INFO o.a.j.r.Summariser: summary =  17930 in 00:02:50 =  105.3/s Avg:   892 Min:     2 Max:  6139 Err: 17930 (100.00%)
+2025-05-16 13:06:00,012 INFO o.a.j.r.Summariser: summary +   3289 in 00:00:30 =  109.8/s Avg:   908 Min:     0 Max:  5562 Err:  3289 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:06:00,012 INFO o.a.j.r.Summariser: summary =  21219 in 00:03:20 =  106.0/s Avg:   895 Min:     0 Max:  6139 Err: 21219 (100.00%)
+2025-05-16 13:06:30,042 INFO o.a.j.r.Summariser: summary +   3316 in 00:00:30 =  110.4/s Avg:   897 Min:   206 Max:  3475 Err:  3316 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:06:30,043 INFO o.a.j.r.Summariser: summary =  24535 in 00:03:50 =  106.5/s Avg:   895 Min:     0 Max:  6139 Err: 24535 (100.00%)
+2025-05-16 13:07:00,021 INFO o.a.j.r.Summariser: summary +   2240 in 00:00:30 =   74.7/s Avg:  1342 Min:   376 Max:  6104 Err:  2240 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:07:00,022 INFO o.a.j.r.Summariser: summary =  26775 in 00:04:20 =  102.9/s Avg:   932 Min:     0 Max:  6139 Err: 26775 (100.00%)
+2025-05-16 13:07:30,001 INFO o.a.j.r.Summariser: summary +   2848 in 00:00:30 =   95.0/s Avg:  1022 Min:   395 Max:  4214 Err:  2848 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:07:30,002 INFO o.a.j.r.Summariser: summary =  29623 in 00:04:50 =  102.1/s Avg:   941 Min:     0 Max:  6139 Err: 29623 (100.00%)
+2025-05-16 13:08:00,050 INFO o.a.j.r.Summariser: summary +   3001 in 00:00:30 =   99.9/s Avg:  1035 Min:   207 Max: 10190 Err:  3001 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:08:00,051 INFO o.a.j.r.Summariser: summary =  32624 in 00:05:20 =  101.9/s Avg:   950 Min:     0 Max: 10190 Err: 32624 (100.00%)
+2025-05-16 13:08:30,053 INFO o.a.j.r.Summariser: summary +   3311 in 00:00:30 =  110.4/s Avg:   905 Min:   391 Max:  1903 Err:  3311 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:08:30,054 INFO o.a.j.r.Summariser: summary =  35935 in 00:05:50 =  102.6/s Avg:   946 Min:     0 Max: 10190 Err: 35935 (100.00%)
+2025-05-16 13:09:00,254 INFO o.a.j.r.Summariser: summary +   3377 in 00:00:30 =  111.8/s Avg:   876 Min:   177 Max:  2176 Err:  3377 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:09:00,256 INFO o.a.j.r.Summariser: summary =  39312 in 00:06:20 =  103.3/s Avg:   940 Min:     0 Max: 10190 Err: 39312 (100.00%)
+2025-05-16 13:09:30,023 INFO o.a.j.r.Summariser: summary +   3304 in 00:00:30 =  111.0/s Avg:   907 Min:   188 Max:  1981 Err:  3304 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:09:30,024 INFO o.a.j.r.Summariser: summary =  42616 in 00:06:50 =  103.9/s Avg:   937 Min:     0 Max: 10190 Err: 42616 (100.00%)
+2025-05-16 13:10:00,019 INFO o.a.j.r.Summariser: summary +   3132 in 00:00:30 =  104.4/s Avg:   964 Min:   207 Max:  2003 Err:  3132 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:10:00,020 INFO o.a.j.r.Summariser: summary =  45748 in 00:07:20 =  103.9/s Avg:   939 Min:     0 Max: 10190 Err: 45748 (100.00%)
+2025-05-16 13:10:30,263 INFO o.a.j.r.Summariser: summary +   3323 in 00:00:30 =  109.9/s Avg:   891 Min:   399 Max:  1855 Err:  3323 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:10:30,264 INFO o.a.j.r.Summariser: summary =  49071 in 00:07:51 =  104.3/s Avg:   936 Min:     0 Max: 10190 Err: 49071 (100.00%)
+2025-05-16 13:11:00,019 INFO o.a.j.r.Summariser: summary +   3271 in 00:00:30 =  109.9/s Avg:   903 Min:     1 Max:  2597 Err:  3271 (100.00%) Active: 100 Started: 100 Finished: 0
+2025-05-16 13:11:00,020 INFO o.a.j.r.Summariser: summary =  52342 in 00:08:20 =  104.6/s Avg:   934 Min:     0 Max: 10190 Err: 52342 (100.00%)
